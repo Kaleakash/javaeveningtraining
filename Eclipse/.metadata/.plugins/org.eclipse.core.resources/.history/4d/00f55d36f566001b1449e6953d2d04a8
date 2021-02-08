@@ -1,0 +1,18 @@
+package com;
+
+public class DemoTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp1,emp2,emp3;
+		int a;
+		new Employee().dis();
+		new Employee().dis();
+		//emp1.dis();
+		emp1 = new Employee();
+		emp1.dis();
+		emp1.dis();
+		
+	}
+
+}

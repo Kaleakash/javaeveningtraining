@@ -1,0 +1,24 @@
+package com;
+class AA implements Runnable{
+		@Override
+		public void run() {
+			
+		}
+}
+class BB implements Runnable{
+	@Override
+	public void run() {
+			
+	}
+}
+public class ImplementsRunnable {
+	public static void main(String[] args) {
+	Runnable obj1 = new AA();
+	Runnable obj2 = new BB();
+	Thread t1 = new Thread(obj1);			//t1 is a thread class reference 
+	Thread t2 = new Thread(obj2);			// t2 is a thread class reference 
+	t1.start();
+	t2.start();
+	}
+
+}

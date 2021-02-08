@@ -1,0 +1,24 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductTest {
+
+	public static void main(String[] args) {
+		List<Product> listOfProduct = new ArrayList<>();
+		Product p1 = new Product();
+		p1.setPid(100);
+		p1.setPname("TV");
+		p1.setPrice(55000);
+		
+		Product p2 = new Product(101, "Computer", 45000);
+		
+		listOfProduct.add(p1);
+		listOfProduct.add(p2);
+		listOfProduct.add(new Product(102, "Mobile", 34000));
+		
+		
+	}
+
+}

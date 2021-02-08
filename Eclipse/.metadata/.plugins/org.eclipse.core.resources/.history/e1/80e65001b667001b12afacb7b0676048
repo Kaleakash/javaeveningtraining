@@ -1,0 +1,24 @@
+package com;
+class Book implements Runnable{
+		int avl=1;
+		@Override
+		public void run() {
+		String name = Thread.currentThread().getName();
+		if(avl==1) {
+			System.out.println(name+" got the ticket");
+		}else {
+			System.out.println(name+" sorry no ticket");
+		}
+		}
+}
+public class BookingApp {
+	public static void main(String[] args) {
+	Book b1 = new Book();
+	Book b2 = new Book();
+	Book b3 = new Book();
+	Thread t1 = new Thread(b1,"Raj");
+	Thread t2 = new Thread(b2,"Ravi");
+	Thread t3 = new Thread(b3,"Ramesh");
+	}
+
+}

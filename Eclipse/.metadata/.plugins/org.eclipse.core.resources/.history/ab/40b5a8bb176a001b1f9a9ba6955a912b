@@ -1,0 +1,13 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductTest {
+
+	public static void main(String[] args) {
+		List<Product> listOfProduct = new ArrayList<>();
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ListWithGenerics {
+public static void main(String[] args) {
+		/*List ll = new ArrayList();
+		ll.add(100);
+		ll.add("Ramesh");
+		ll.add(20.20);
+		
+		Object obj	 = ll.get(1);
+		Integer i = (Integer)obj;
+		int n = i.intValue();
+		System.out.println(n);*/
+		//Collection framework with Generics 
+}
+
+public ArrayList getInfo() {
+	ArrayList al =new ArrayList();
+	return al;
+}
+
+public List getInfoList() {
+	//List al =new ArrayList();
+	List al =new LinkedList();
+	//List al =new Vector();
+	return al;
+}
+}

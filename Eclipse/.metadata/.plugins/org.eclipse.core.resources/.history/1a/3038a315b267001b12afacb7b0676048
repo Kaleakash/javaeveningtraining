@@ -1,0 +1,14 @@
+package com;
+class AA implements Runnable{
+		
+}
+class BB {
+	
+}
+public class ImplementsRunnable {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

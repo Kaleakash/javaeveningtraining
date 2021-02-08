@@ -1,0 +1,15 @@
+package com;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee emp1 = new Employee();
+		emp1.setId(100);
+		emp1.setName("Ajay");
+		emp1.setSalary(45000);
+		
+		System.out.println(emp1);
+
+	}
+
+}

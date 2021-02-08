@@ -1,0 +1,24 @@
+package com;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+
+public class FileOperation {
+	public static void main(String[] args) throws Exception{
+	/*DataInputStream dis = new DataInputStream(System.in);
+	FileOutputStream fos = new FileOutputStream("info.txt");
+	System.out.println("Enter the data");
+	int ch;
+	while((ch=dis.read()) != '@') {
+		fos.write(ch);
+	}
+	fos.close();*/
+		FileOutputStream fos = new FileOutputStream("emp.txt");
+	DataOutputStream dos = new DataOutputStream(fos);
+	dos.writeInt(100);
+	dos.writeUTF("Ramesh");
+	dos.writeFloat(12000);
+	System.out.println("Emp info stored in file");
+	}
+}

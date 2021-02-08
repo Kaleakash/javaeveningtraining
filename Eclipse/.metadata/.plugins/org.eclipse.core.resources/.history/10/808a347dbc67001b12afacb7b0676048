@@ -1,0 +1,9 @@
+package com;
+
+import java.io.DataInputStream;
+
+public class FileOperation {
+	public static void main(String[] args) {
+	DataInputStream dis = new DataInputStream(System.in);
+	}
+}

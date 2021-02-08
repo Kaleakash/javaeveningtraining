@@ -1,0 +1,18 @@
+package com;
+
+public class DemoTest {
+
+	public static void main(String[] args) {
+	String s1 = "Raj";				// literal style
+	String s2 = new String("Raj");	// new keyword 
+	String s3 = "Raj";				// string pooling 
+	String s4 = new String("Raj");
+	if(s1==s2) {
+		System.out.println("Equal");
+	}else {
+		System.out.println("Not Equal");
+	}
+	
+	}
+
+}

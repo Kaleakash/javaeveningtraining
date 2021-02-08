@@ -1,0 +1,15 @@
+package com;
+class A extends Thread{
+	
+}
+class B extends Thread{
+	
+	
+}
+public class ExtendsThreadDemo {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

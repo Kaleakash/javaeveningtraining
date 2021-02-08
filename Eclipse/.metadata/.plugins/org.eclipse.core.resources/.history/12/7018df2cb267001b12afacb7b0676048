@@ -1,0 +1,20 @@
+package com;
+class AA implements Runnable{
+		@Override
+		public void run() {
+			
+		}
+}
+class BB implements Runnable{
+	@Override
+	public void run() {
+			
+	}
+}
+public class ImplementsRunnable {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

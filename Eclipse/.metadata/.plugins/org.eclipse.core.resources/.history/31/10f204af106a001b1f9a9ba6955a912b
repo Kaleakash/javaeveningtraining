@@ -1,0 +1,13 @@
+package com;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		//Store all type of objects 
+		HashSet hs = new HashSet();
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package com;
+class AA implements Runnable{
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			
+		}
+}
+class BB implements Runnable{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+public class ImplementsRunnable {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

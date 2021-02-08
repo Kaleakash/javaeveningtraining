@@ -1,0 +1,15 @@
+package com;
+class A {
+	
+}
+class B {
+	
+	
+}
+public class ExtendsThreadDemo {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

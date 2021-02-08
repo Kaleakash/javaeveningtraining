@@ -1,0 +1,25 @@
+package com;
+abstract class Bike {
+	public void speed() {
+		
+	}
+	public void mailage() {
+		System.out.println("40km/hr");
+	}
+}
+abstract class Pulsar extends Bike {
+
+}
+class Honda extends Bike {
+	public void speed() {
+		System.out.println("50km/hr");
+	}
+}
+public class DemoTest {
+
+	public static void main(String[] args) {
+		
+Bike bb = new Bike();
+	}
+
+}

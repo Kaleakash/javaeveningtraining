@@ -1,0 +1,33 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.Stack;
+
+public class ListDemo {
+
+	public static void main(String[] args) {
+		/*Stack ss = new Stack();
+			ss.push(100);
+			ss.push(200);
+			ss.push(300);
+			ss.push(400);
+			System.out.println(ss);
+			System.out.println(ss.pop());
+			System.out.println(ss);
+			System.out.println(ss.peek());
+			System.out.println(ss);
+			System.out.println(ss.search(200));
+			System.out.println(ss.search(3000));*/
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add(300);
+		al.add(400);
+		al.add(1, 1000);
+		System.out.println(al);
+		System.out.println("using index "+al.get(1));
+		al.remove(2);
+		al.remove(new Integer(400));
+	}
+
+}

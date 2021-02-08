@@ -1,0 +1,16 @@
+package com;
+
+import java.util.HashMap;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+	HashMap hm = new HashMap();
+	hm.put(2, "Raj");
+	hm.put(1, "Ravi");
+	hm.put(3, "Ramesh");
+	hm.put(4, "Rajesh");
+	System.out.println(hm);
+	}
+
+}

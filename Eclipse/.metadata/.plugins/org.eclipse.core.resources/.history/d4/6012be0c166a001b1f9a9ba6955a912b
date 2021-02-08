@@ -1,0 +1,16 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListWithGenerics {
+public static void main(String[] args) {
+		List ll = new ArrayList();
+		
+}
+
+public ArrayList getInfo() {
+	ArrayList al =new ArrayList();
+	return al;
+}
+}

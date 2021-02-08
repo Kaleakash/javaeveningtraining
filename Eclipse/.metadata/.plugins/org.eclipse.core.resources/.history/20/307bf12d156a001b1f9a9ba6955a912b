@@ -1,0 +1,24 @@
+package com;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+	//HashMap hm = new HashMap();		unorder 
+	//LinkedHashMap hm = new LinkedHashMap();		// maintain the order 
+	TreeMap hm  = new TreeMap();			//asc by key 
+	hm.put(2, "Raj");
+	hm.put(1, "Ravi");
+	hm.put(3, "Ramesh");
+	hm.put(4, "Rajesh");
+	System.out.println(hm);
+	hm.put(1, "Ajay");
+	hm.put(5, "Ramesh");
+	System.out.println(hm);
+	
+	}
+
+}
